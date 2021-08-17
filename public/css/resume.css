@@ -1,4 +1,4 @@
-.header_boxlink {
+.welcome_header_boxlink {  
     position: relative;
     display: block;
     text-align: center;
@@ -9,6 +9,26 @@
     border: 1px solid #da5319;
     border-radius: 5px;
     text-align: center;
+}
+
+.header_nav_boxlink {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    color: #da5319!important;
+    border: 1px solid #da5319;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header_brand {
+    color: #da5319!important;
+}
+
+.header_user_dropdown {
+    color: #da5319!important;
 }
 
 

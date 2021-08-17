@@ -31,15 +31,15 @@
                     @if (Route::has('login'))
                         @auth
                         <li class="nav-item px-2 py-2">
-                            <a class="header_boxlink" href="{{ url('/home') }}">Home</a>
+                            <a class="welcome_header_boxlink" href="{{ url('/home') }}">Home</a>
                         </li>
                         @else
                         <li class="nav-item px-2 py-2">
-                            <a class="header_boxlink" href="{{ route('login') }}">Login</a>
+                            <a class="welcome_header_boxlink" href="{{ route('login') }}">Login</a>
                         </li>
                             @if (Route::has('register'))
                             <li class="nav-item px-2 py-2">
-                                <a class="header_boxlink" href="{{ route('register') }}">Register</a>
+                                <a class="welcome_header_boxlink" href="{{ route('register') }}">Register</a>
                             </li>
                             @endif
                         @endauth
@@ -58,7 +58,7 @@
                                 Resume | 履歴書を簡単に作成
                             </p>
                             <p class="subtitle">
-                                <button class="content_boxlink" type="button" onclick="location.href='/home'">サンプルを見てみる</button>
+                                <button class="content_boxlink" type="button" onclick="location.href='/guest'">サンプルを見てみる</button>
                             </p>
                         </div>
                     </section>
