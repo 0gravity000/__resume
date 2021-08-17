@@ -31,33 +31,23 @@
     color: #da5319!important;
 }
 
-
-.bg-img {
-    background-image : url("../img/scrable_1280.jpg");
-    background-repeat: no-repeat;
-}
-
-.bg-img p {
+.card-img-overlay h5 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .content_boxlink {
-    position: relative;
-    display: block;
-    text-align: center;
     background-color:rgba(218,83,25,0.7);
     border-radius: 5px;
     color: #fff;
-    width: 400px;
-    height: 60px;
-    line-height: 60px;
     border: 1px solid #da5319;
-    -webkit-transition: none;
-    transition: none;
-    font-size: 1.5rem;
+    line-height: 50px;
+    font-size: 1.2rem;
 }
 
+.card-overlay-text {
+    margin-top: 5rem;    
+}
 
 /*
 .bg-img p{
