@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Profile;
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Auth;
+use App\User;
+
 class ProfileController extends Controller
 {
     /**
@@ -15,6 +18,10 @@ class ProfileController extends Controller
     public function index()
     {
         //
+        //dd(Auth::user()->id);
+        $user = User::where('id', Auth::user()->id)->get();
+        $profile = Profile::where('user_id', Auth::user()->id)->get();
+        return view('profile', compact('user', 'profile'));
     }
 
     /**
