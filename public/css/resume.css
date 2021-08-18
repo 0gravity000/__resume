@@ -49,6 +49,37 @@
     margin-top: 5rem;    
 }
 
+.fontsize-sm {
+    font-size: 0.6rem;   
+}
+
+.card-row-hight-30 {
+    line-height: 30px;
+}
+.card-row-hight-70 {
+    line-height: 70px;
+}
+.card-row-hight-8 {
+    line-height: 8px;
+}
+.card-row-hight-9 {
+    line-height: 9px;
+}
+.card-row-hight-25 {
+    line-height: 25px;
+}
+
+.maru {
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.card-img-size {
+    width: 65px;
+    height: 112px;
+}
+
 /*
 .bg-img p{
     color: #fff;
